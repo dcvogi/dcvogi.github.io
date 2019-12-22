@@ -122,7 +122,7 @@ margin-bottom: $vertical-spacing-unit;
     }
 }
 .contacticon {
-font-size: 60px;
+font-size: 45px;
 display:block;
 margin: 10px;
 }
@@ -173,16 +173,6 @@ display: block;
 font-size: 42px;
 }
 
-/** Poem formatting ********************************************/
-.poem-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
-    }
-}
-
 
 /** 
  * Portfolio grid **********************************************************
@@ -216,6 +206,7 @@ height: auto;
 position: relative;
 left: -25%;
 top: -5%;
+border-radius: 45px;
 }
 .thumbnail a{
 float: left;
