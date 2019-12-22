@@ -4,14 +4,6 @@ title: blog
 permalink: /blog/
 ---
 
-<div class="header-bar">
-  <h1>*folio</h1>
-  <h2>simple whitespace theme</h2>
-  <br/>
-  <hr>
-  <br/>
-</div>
-
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
