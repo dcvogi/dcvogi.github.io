@@ -60,9 +60,9 @@ display: line;
     padding-top: 25px;
     line-height: 3em;
     z-index: 25;
-    border-bottom-style: solid;
+    border-bottom-style: solid !important;
     border-bottom: #333;
-    border-width: thin;
+    border-bottom-width: thin;
     overflow: auto;
     h1{
         color: $theme-color;
@@ -84,9 +84,9 @@ display: line;
 
 .main-text-content {
     margin-top: 15px;
-    border-bottom-style: solid;
+    border-bottom-style: solid !important;
     border-bottom: #333;
-    border-width: thin;
+    border-bottom-width: thin;
 }
 
 
