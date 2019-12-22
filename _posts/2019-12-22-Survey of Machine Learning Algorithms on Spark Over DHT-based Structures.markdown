@@ -2,7 +2,7 @@
 layout: post
 title:  Survey of Machine Learning Algorithms on Spark Over DHT-based Structures
 date: 2019-12-22 21:01:00
-description: #1 In this first blog post I will share the topic of the first and only (at the moment) paper I published along with some very distinguished and talented professors and colleagues.
+description: In this first blog post I will share the topic of the first and only (at the moment) paper I published along with some very distinguished and talented professors and colleagues.
 ---
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
