@@ -35,6 +35,9 @@ Besides Cassandra's applicability for our project, its popularity and proven per
 
 ### Machine Learning Algorithms and experimental results
 <br/>
+
+#### Dataset
+<br/>
 After the installation and configuration of Cassandra in a cluster, and in order to demonstrate the application of popular machine learning algorithms we needed to have a dataset. After a little bit of research, we decided to proceed with Point-Of-Sales (POS) data as we found it very interesting and we could apply different algorithms for a variety of purposes. Below is a sample of the dataset used:
 <br/>
 <style type="text/css">
@@ -42,7 +45,7 @@ After the installation and configuration of Cassandra in a cluster, and in order
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-dvid{font-weight:bold;background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-wkkj{font-weight:bold;background-color:#efefef;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-wkkj{font-weight:bold;background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg" style="width: 100% !important">
@@ -52,7 +55,7 @@ After the installation and configuration of Cassandra in a cluster, and in order
     <th class="tg-dvid">Date</th>
     <th class="tg-dvid">Barcode</th>
     <th class="tg-dvid">Sum_Units</th>
-    <th class="tg-dvid">Sum_Values</th>
+    <th class="tg-dvid">Sum_Value</th>
   </tr>
   <tr>
     <td class="tg-0pky">1</td>
@@ -88,23 +91,12 @@ After the installation and configuration of Cassandra in a cluster, and in order
   </tr>
 </table>
 <br/>
+The Point-Of-Sales data relates to the transactions that have been made in the cash register of a supermarket. Each Basket ID refers to a receipt. The Date ﬁeld represents the date that the transaction (as an integer) has been taken place. The Barcode ﬁeld refers to a unique product number, while Sum Units are the number of units of the given barcode purchased. Also, the Sum Value is the total value of those purchases. It is clear that the Auto Inc ﬁeld represents the record number in Cassandra and the primary key of the table.
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post_1/9.jpg">
-</div>
-<div class="col three caption">
-	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
-</div>
-<div class="img_row">
-	<img class="col two" src="/img/post_1/8.jpg">
-	<img class="col one" src="/img/post_1/10.jpg">
-</div>
-
-Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
-
-
-<div class="img_row">
-	<img class="col one" src="/img/post_1/11.jpg">
-	<img class="col one" src="/img/post_1/12.jpg">
-	<img class="col one" src="/img/post_1/7.jpg">
-</div>
+#### Machine Learning Algorithms
+<br/>
+For the experimental case study, we used several Machine Learning Algorithms from Spark’s built-in library MLlib. <a href="https://spark.apache.org/" target="blank">Apache Spark</a> is a widely known open-source Application Programming Interface (API) for cluster computing which provides programmers with the ability to rapidly develop applications using languages like Scala (which is the native language that Spark is written), Java, Python or R in order to process very large datasets. The experiments conducted with some of the most inﬂuential algorithms that have been widely used in the machine learning community; these are Naive Bayes, SVM, K-Means, Expectation Maximization, Association Rules and Parallel FP-Growth. I won't get into details regarding the algorithms and the results as they are described in thoroughly in the paper.
+<br/><br/>
+If you would like to read the paper, you can follow <a href="https://www.researchgate.net/publication/311910023_Survey_of_machine_learning_algorithms_on_Spark_over_DHT-based_Structures" target="blank">this link</a> to ResearchGate and download the full-text PDF.
+<br/><br/>
+If you have any questions, feedback or comments, feel free to reach out via mail, LinkedIn or Twitter.

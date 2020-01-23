@@ -37,7 +37,7 @@ $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   #666;
+$theme-color:   #333;
 
 
 /************************************************************/
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
     /*
     &:visited {
         color: darken($brand-color, 15%); 
@@ -132,7 +132,7 @@ a {
     */
     &:hover {
         color: $theme-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
