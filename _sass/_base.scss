@@ -157,6 +157,7 @@ article a {
 a.post-title {
     color: $theme-color;
     font-weight: 100;
+    text-decoration: none;
 
     &:hover {
         text-decoration: none;
