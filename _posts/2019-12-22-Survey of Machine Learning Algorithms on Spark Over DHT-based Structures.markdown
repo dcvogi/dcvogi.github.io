@@ -41,16 +41,18 @@ After the installation and configuration of Cassandra in a cluster, and in order
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-dvid{font-weight:bold;background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-wkkj{font-weight:bold;background-color:#efefef;border-color:#000000;text-align:left;vertical-align:top}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="width: 100% !important">
   <tr>
-    <th class="tg-0pky">Auto_Inc</th>
-    <th class="tg-0pky">Basket_ID</th>
-    <th class="tg-0pky">Date</th>
-    <th class="tg-0pky">Barcode</th>
-    <th class="tg-0pky">Sum_Units</th>
-    <th class="tg-0pky">Sum_Values</th>
+    <th class="tg-wkkj">Auto_Inc</th>
+    <th class="tg-dvid">Basket_ID</th>
+    <th class="tg-dvid">Date</th>
+    <th class="tg-dvid">Barcode</th>
+    <th class="tg-dvid">Sum_Units</th>
+    <th class="tg-dvid">Sum_Values</th>
   </tr>
   <tr>
     <td class="tg-0pky">1</td>
