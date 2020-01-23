@@ -37,12 +37,54 @@ Besides Cassandra's applicability for our project, its popularity and proven per
 <br/>
 After the installation and configuration of Cassandra in a cluster, and in order to demonstrate the application of popular machine learning algorithms we needed to have a dataset. After a little bit of research, we decided to proceed with Point-Of-Sales (POS) data as we found it very interesting and we could apply different algorithms for a variety of purposes. Below is a sample of the dataset used:
 <br/>
-| Auto_Inc | Basket_ID | Date  | Barcode      | Sum_Units | Sum_Values |
-|----------|-----------|-------|--------------|-----------|------------|
-| 1        | 959980460 | 40938 | 520121904010 | 2         | 12,15      |
-| 2        | 959980460 | 40938 | 212735100000 | 1         | 5          |
-| 3        | 959980461 | 40938 | 356007034249 | 1         | 1,34       |
-| 4        | 959980461 | 40938 | 520100404062 | 1         | 9,50       |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Auto_Inc</th>
+    <th class="tg-0pky">Basket_ID</th>
+    <th class="tg-0pky">Date</th>
+    <th class="tg-0pky">Barcode</th>
+    <th class="tg-0pky">Sum_Units</th>
+    <th class="tg-0pky">Sum_Values</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">959980460</td>
+    <td class="tg-0pky">40938</td>
+    <td class="tg-0pky">520121904010</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">12,15</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">959980460</td>
+    <td class="tg-0pky">40938</td>
+    <td class="tg-0pky">212735100000</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">5</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">959980461</td>
+    <td class="tg-0pky">40938</td>
+    <td class="tg-0pky">356007034249</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1,34</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">959980461</td>
+    <td class="tg-0pky">40938</td>
+    <td class="tg-0pky">520100404062</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">9,50</td>
+  </tr>
+</table>
 <br/>
 
 <div class="img_row">
