@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Publishing my first scientific paper
-date: 2019-12-22 21:01:00
+date: 2020-01-23 10:35:00
 description: In this first blog post I will share the topic of the first and only (at the moment) paper I published along with some very distinguished and talented professors and colleagues.
 ---
 
