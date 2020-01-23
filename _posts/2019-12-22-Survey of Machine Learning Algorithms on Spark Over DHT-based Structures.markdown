@@ -33,7 +33,7 @@ DHT structures are mainly motivated from peer-to-peer systems (e.g. BitTorrent, 
 <br/><br/>
 Besides Cassandra's applicability for our project, its popularity and proven performance, we also chose to use it because of its very well written documentation and the community behind it as this made the installation and configuration more simple. 
 
-### Machine Learning Algorithms and experimental results
+### Machine Learning Algorithms and dataset
 <br/>
 
 #### Dataset
