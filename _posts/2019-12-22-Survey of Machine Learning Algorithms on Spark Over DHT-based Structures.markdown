@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Survey of Machine Learning Algorithms on Spark Over DHT-based Structures
+title:  Publishing my first scientific paper
 date: 2019-12-22 21:01:00
 description: In this first blog post I will share the topic of the first and only (at the moment) paper I published along with some very distinguished and talented professors and colleagues.
 ---
@@ -11,9 +11,9 @@ During my university years (<a href="http://di.ionio.gr/en/" target="blank">Ioni
 <br/><br/>
 As you can imagine, I chose the winner. Big data always intrigued me and is something I never felt like work. Moreover, working with data is my way to please the curious version of myself and find answers to my questions.
 <br/><br/>
-All this time, I had the priviledge of meeting and working with very talented people, many of which I still call friends. With a couple of those, we founded a developers team (Ionian Developers Team) where we developed an Android Application (<a href="https://ionio.gr/gr/news/6265/" target="blank">Feedippides</a>) to keep our fellow students (and ourselves) up to date with our class announcements or updates. We were also lab members and researchers of the Information Systems and Databases (ISDLab) Lab of the department. As members of the lab, our professor (and one of my mentors on the field) <a href="https://www.ceid.upatras.gr/en/staff/faculty/sioutas-spyros" target="blank">Dr. Spyros Sioutas</a> proposed the idea of writing a survey and publish it on the 2nd International Workshop on Algorithmic Aspects of Cloud Computing (<a href="https://conferences.au.dk/algo16/algocloud/" target="blank">ALGOCLOUD 2016</a>). In this paper, we had to set up and configure a DHT-based database on a cluster and apply a couple of machine learning algorithms that can run in parallel. Below you can find the abstract of the paper and at the end of the post I will provide a link with the full text of the paper.
+All this time, I had the priviledge of meeting and working with very talented people, many of which I still call friends. With a couple of those, we founded a developers team (Ionian Developers Team) where we developed an Android Application (<a href="https://ionio.gr/gr/news/6265/" target="blank">Feedippides</a>) to keep our fellow students (and ourselves) up to date with our class announcements or updates. We were also lab members and researchers of the Information Systems and Databases (ISDLab) Lab of the department. As members of the lab, our professor (and one of my mentors on the field) <a href="https://www.ceid.upatras.gr/en/staff/faculty/sioutas-spyros" target="blank">Dr. Spyros Sioutas</a> proposed the idea of writing a survey and publish it on the 2nd International Workshop on Algorithmic Aspects of Cloud Computing (<a href="https://conferences.au.dk/algo16/algocloud/" target="blank">ALGOCLOUD 2016</a>). In this paper, we had to set up and configure a DHT-based database on a cluster and apply a couple of machine learning algorithms that can run in parallel. Below you can find the title and abstract of the paper and at the end of the post I will provide a link with the full text.
 
-### Abstract
+### Survey of Machine Learning Algorithms on Spark Over DHT-based Structures
 <br/>
 Several solutions have been proposed over the past few years on data storage, data management as well as data retrieval systems. These solutions can process massive amount of data stored in relational or distributed database management systems. In addition, decision making analytics and predictive computational statistics are some of the most common and well studied fields in computer science. In this paper, we demonstrate the implementation of machine learning algorithms over an open-source distributed database management system that can run in parallel on a cluster. In order to accomplish that, a system architecture scheme (e.g. Apache Spark) over Apache Cassandra is proposed. This paper also presents a survey of the most common machine learning algorithms and the results of the experiments performed over a Point-Of-Sales (POS) data set.
 
@@ -34,9 +34,15 @@ DHT structures are mainly motivated from peer-to-peer systems (e.g. BitTorrent, 
 Besides Cassandra's applicability for our project, its popularity and proven performance, we also chose to use it because of its very well written documentation and the community behind it as this made the installation and configuration more simple. 
 
 ### Machine Learning Algorithms and experimental results
-
 <br/>
-
+After the installation and configuration of Cassandra in a cluster, and in order to demonstrate the application of popular machine learning algorithms we needed to have a dataset. After a little bit of research, we decided to proceed with Point-Of-Sales (POS) data as we found it very interesting and we could apply different algorithms for a variety of purposes. Below is a sample of the dataset used:
+<br/>
+| Auto_Inc | Basket_ID | Date  | Barcode      | Sum_Units | Sum_Values |
+|----------|-----------|-------|--------------|-----------|------------|
+| 1        | 959980460 | 40938 | 520121904010 | 2         | 12,15      |
+| 2        | 959980460 | 40938 | 212735100000 | 1         | 5          |
+| 3        | 959980461 | 40938 | 356007034249 | 1         | 1,34       |
+| 4        | 959980461 | 40938 | 520100404062 | 1         | 9,50       |
 <br/>
 
 <div class="img_row">
