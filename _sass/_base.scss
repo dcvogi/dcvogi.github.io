@@ -37,7 +37,7 @@ $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   #666;
+$theme-color:   #333;
 
 $article-links-color: #4464C1;
 
@@ -154,7 +154,14 @@ article a {
     }
 }
 
+a.post-title {
+    color: $theme-color;
+    font-weight: 100;
 
+    &:hover {
+        text-decoration: none;
+    }
+}
 
 /**
  * Blockquotes
