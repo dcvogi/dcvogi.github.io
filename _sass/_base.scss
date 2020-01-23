@@ -37,7 +37,9 @@ $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   #333;
+$theme-color:   #666;
+
+$article-links-color: #4464C1;
 
 
 /************************************************************/
@@ -118,6 +120,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 2rem;
 }
 
+.header-text h1{
+    font-weight: 100;
+    line-height: 3rem;
+}
 
 /**
  * Links
@@ -136,9 +142,12 @@ a {
     }
 }
 
+
+
 article a {
     color: $theme-color;
     font-weight: 100;
+    text-decoration: underline;
 
     &:hover {
         text-decoration: none;
